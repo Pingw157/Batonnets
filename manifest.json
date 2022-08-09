@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "Batonnets",
+  "name": "Jeu des batonnets",
+  "description": "Reproduction HTML/CSS/JS du jeu des bâtonnets de Fort-Boyard.",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "icons/menu.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "theme_color": "#409E8E",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any"
+}
