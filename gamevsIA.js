@@ -1,5 +1,5 @@
 var userName = window.prompt('Enter your user name');
-if (userName == null) {
+if (userName == null || userName == "") {
   userName = "Supid nameless player";
 }
 
