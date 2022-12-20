@@ -2,7 +2,7 @@ html {
     height: 100vh;
     padding: 0;
 }
-body {
+body, #gameContainer {
     height: 100%;
 }
    .scene {
