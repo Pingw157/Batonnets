@@ -3,13 +3,13 @@ html {
     padding: 0;
 }
 body, #gameContainer {
-    height: 100vh;
+    height: 90vh;
 }
    .scene {
      padding-top: 5%;
      background-color: black;
      width: 90%;
-     max-width: 400px;
+     max-width: 600px;
      height: 90%;
      margin: auto;
      border-radius: 10px;
