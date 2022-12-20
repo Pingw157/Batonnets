@@ -47,7 +47,6 @@ var initV2 = function() {
   elScene.className = "scene";
   elPlateau.className = "plateau";
 
-  elJoueur1.innerHTML = "Joueur 1";
   elJoueur1.className = "player";
   elJoueur1.style.top = "0";
 
