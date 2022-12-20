@@ -1,21 +1,8 @@
-self.addEventListener('install', (e) => {
-  e.waitUntil(
-    caches.open('game-store').then((cache) => cache.addAll(['/index.html', '/gamestyle.css', '/manifest.webmanifest', '/app.js']))
-  );
-});
-
-self.addEventListener('fetch', (e) => {
-  console.log(e.request.url);
-  e.respondWith(
-    caches.match(e.request).then((response) => response || fetch(e.request)),
-  );
-});
-
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open('game-store').then(async (cache) => {
     let ok,
-    c = ['/index.html', '/gamestyle.css', '/manifest.json', '/app.js'];
+    c = ['/index.html', '/gamestyle.css', '/manifest.webmanifest', '/app.js'];
 
     console.log('ServiceWorker: Caching files:', c.length, c);
     try {
@@ -35,4 +22,11 @@ self.addEventListener('install', (e) => {
   }));
 
   console.log('ServiceWorker installed');
+});
+
+self.addEventListener('fetch', (e) => {
+  console.log(e.request.url);
+  e.respondWith(
+    caches.match(e.request).then((response) => response || fetch(e.request)),
+  );
 });
