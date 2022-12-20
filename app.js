@@ -1,7 +1,7 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
     .register('./sw.js')
-    .then(() => { alert('Service Worker Registered'); });
+    .then(() => { console.log('Service Worker Registered'); });
 }
 var userName = window.prompt('Enter your user name');
 if (!userName) {
