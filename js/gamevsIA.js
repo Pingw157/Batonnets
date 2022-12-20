@@ -3,8 +3,8 @@ if('serviceWorker' in navigator) {
 };
 
 var userName = window.prompt('Enter your user name');
-if (userName == null) {
-  userName = "Supid nameless player";
+if (!userName) {
+  userName = "Nameless player";
 }
 
 function randInt(min, max) {
