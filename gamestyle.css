@@ -3,7 +3,7 @@ html {
     padding: 0;
 }
 body, #gameContainer {
-    height: 100%;
+    height: 100vh
 }
    .scene {
      padding-top: 5%;
