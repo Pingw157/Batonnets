@@ -1,6 +1,6 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('game-store').then((cache) => cache.addAll(['/index.html', '/gamestyle.css', '/manifest.json', '/app.js']))
+    caches.open('game-store').then((cache) => cache.addAll(['/index.html', '/gamestyle.css', '/manifest.webmanifest', '/app.js']))
   );
 });
 
