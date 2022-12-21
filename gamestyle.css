@@ -5,6 +5,9 @@ html {
 body, #gameContainer {
     height: 90vh;
 }
+button {
+    cursor: pointer;
+}
    .scene {
      padding-top: 5%;
      background-color: black;
@@ -55,7 +58,6 @@ body, #gameContainer {
   .rmvButton{
     margin-left: 5%;
     margin-right: 5%;
-    cursor: pointer;
   }
 
   .restartbtn{
