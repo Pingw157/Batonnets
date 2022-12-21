@@ -180,7 +180,7 @@ elJ1ret3.addEventListener("click", j1r3, false);
 elrestart.addEventListener("click", reinitV2, false);
 
 window.addEventListener("keydown", (e) => {
-  if (e.code == 'Numpad1' || e.code == 'Digit1') {j1r1()}
-  else if (e.code == 'Numpad2' || e.code == 'Digit2') {j1r2()}
-  else if (e.code == 'Numpad3' || e.code == 'Digit3') {j1r3()}
+  if (e.key == '1') {j1r1()}
+  else if (e.key == '1') {j1r2()}
+  else if (e.key == '1') {j1r3()}
 });
