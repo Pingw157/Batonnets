@@ -5,7 +5,7 @@
   "scope": "/",
   "icons": [
     {
-      "src": "icons/maskable_icon.png",
+      "src": "icons/icon.png",
       "sizes": "225x225",
       "type": "image/png"
     }
