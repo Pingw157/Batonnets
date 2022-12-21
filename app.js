@@ -178,9 +178,3 @@ elJ1ret1.addEventListener("click", j1r1, false);
 elJ1ret2.addEventListener("click", j1r2, false);
 elJ1ret3.addEventListener("click", j1r3, false);
 elrestart.addEventListener("click", reinitV2, false);
-
-window.addEventListener("keydown", (e) => {
-  if (e.key == '1') {j1r1()}
-  else if (e.key == '1') {j1r2()}
-  else if (e.key == '1') {j1r3()}
-});
