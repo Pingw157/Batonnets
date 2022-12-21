@@ -55,6 +55,7 @@ body, #gameContainer {
   .rmvButton{
     margin-left: 5%;
     margin-right: 5%;
+    cursor: pointer;
   }
 
   .restartbtn{
