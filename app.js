@@ -5,7 +5,7 @@ if ('serviceWorker' in navigator) {
 }
 var userName = window.prompt('Enter your user name');
 if (!userName) {
-  userName = "Nameless player";
+  userName = "Player";
 }
 
 function randInt(min, max) {
